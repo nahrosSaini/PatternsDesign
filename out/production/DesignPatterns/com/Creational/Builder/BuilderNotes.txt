@@ -1,0 +1,36 @@
+/*
+
+1. Handles complex constructors
+2. Large number of parameters
+3. Immutability
+
+Examples :
+    ->StringBuilder
+    ->DocumentBuilder
+    ->Locale.Builder
+
+PITFALLS :
+
+1. Immutable
+2. Inner static class
+3. Designed first
+4. Complexity
+
+
+Contrast :
+
+       BUILDER                                  PROTOTYPE
+
+1. Handle complex constructors      1. Implemented around a clone
+2. No interface required            2. Avoids calling complex constructors
+3. Can be a separate class          3. Difficult to implement in legacy code
+4. Woks with legacy code
+
+Summary :
+
+1. Creative way to deal with complexity
+2. Easy to implement
+3. Few drawbacks
+4. Can refactor in with separate class
+
+*/
