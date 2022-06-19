@@ -1,0 +1,33 @@
+/*
+
+Factory of factories  : AbstractFactory
+
+Examples  :
+
+->DocumentBuilder
+->Frameworks
+
+DESIGN:
+
+1. Group of factories together
+2. Factory is responsible for lifecycle
+3. Common interface
+4. Concrete classes
+5. Parameterized create method
+6. Composition
+
+PITFALLS:
+
+1. Complexity (difficult of all Creational design patterns)
+2. Runtime switch
+3. pattern with in a Pattern
+4. Problem specific
+
+SUMMARY :
+
+1. Group of similar factories
+2. Complex
+3. Heavy Abstraction
+4. Framework pattern
+
+*/
