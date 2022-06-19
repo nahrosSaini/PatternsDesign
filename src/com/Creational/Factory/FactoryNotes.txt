@@ -1,0 +1,48 @@
+/*
+
+CONCEPTS :
+
+1. Doesn't expose instantiation logic
+2. Defer to subclasses
+3. Common Interface
+4. Specific by architecture,implemented by user
+
+EXAMPLES :
+
+    ->Calendar
+    ->ResourceBundle
+    ->NumberFormat
+
+
+DESIGN :
+
+1. Factory is responsible for lifecycle
+2. Common interface
+3. Concrete classes
+4. Parameterized create method
+
+
+PITFALLS:
+
+1. Complexity
+2. Creation in subclasses
+3. Refactoring
+4. too much coding
+
+CONTRAST :
+
+Singleton                                   Factory
+
+1. Returns same instance            1. Returns various instances
+2. One no-arg Constructor           2. Multiple Constructor
+3. No Interface Driven              3. Interface Driven
+4.                                  4. Adaptable to environments easily
+
+SUMMARY :
+
+1. Parameter driven
+2. Solves complex creation
+3. A little complex
+4. Opposite of a Singleton
+
+*/

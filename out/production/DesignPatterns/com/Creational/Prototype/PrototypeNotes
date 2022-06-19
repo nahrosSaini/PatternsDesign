@@ -20,6 +20,30 @@ DESIGN :
 4. Costly construction not handled by client
 5. Can still utilize parameters for construction
 
+PITFALLS :
+
+1. Sometimes not clear when to user
+2. Used with other patterns
+    ->Registry
+3. Shallow / Deep Copy(need to implement manually )
+
+
+CONTRAST
+
+      PROTOTYPE                         FACTORY
+
+1. Lighter weight construction    1. Flexible  Objects (Multiple Constructors)
+    copy Constructor or clone     2. Concrete Instance
+2. Shallow or Deep                3. Fresh Instance
+3. Copy itself
+
+
+SUMMARY  :
+
+Guarantee unique instance
+Often refactored in
+Can help with performance issue
+Don't always jump to a factory
 
 
 */
