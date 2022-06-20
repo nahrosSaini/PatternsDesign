@@ -1,0 +1,6 @@
+/*
+
+COMMAND PATTERN.
+
+
+*/

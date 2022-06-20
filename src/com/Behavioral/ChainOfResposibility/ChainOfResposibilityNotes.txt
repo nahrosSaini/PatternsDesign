@@ -1,0 +1,38 @@
+/*
+
+CHAIN OF RESPONSIBILITY
+
+1.Decouple of sender and receiver
+2.Receiver contains reference to next receiver
+3.Promotes loose coupling
+4.No Handler-OK
+
+EXAMPLES :
+
+ -> java.util.logging.Logger#log()
+ -> javax.servlet.filter#doFilter()
+
+CONCEPTS :
+
+1. Chain of Receiver objects
+2. Handler is interface based
+3. ConcreteHandler for each implementation
+4. Each handler has a reference to the next
+5. Handler,ConcreteHandler
+
+
+PITFALLS :
+
+Handling/Handler guarantee
+Runtime configuration risk
+Chain length/performance issues
+
+CONTRAST :
+
+CHAIN OF RESPONSIBILITY              COMMAND
+
+1.Handler is unique.             1. Command also unique
+2.Successor                      2. Encapsulate function
+3.Can utilize the Command        3. Reversible or Trackable in nature
+
+*/
