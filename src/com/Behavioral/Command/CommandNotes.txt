@@ -2,5 +2,39 @@
 
 COMMAND PATTERN.
 
+1. Encapsulates request as an Object
+2. Object-oriented callback
+3. Decouple sender from processor
+4. Often used for undo functionality
+
+EXAMPLES :
+
+-> java.lang.Runnable
+-> javax.swing.Action
+
+DESIGN :
+
+1. Object per command.
+2. Command Interface.
+3. Execute Method.
+4. UnExecute Method.
+5. Reflection.
+
+Command,Invoker,ConcreteCommand
+
+PITFALLS :
+
+1. Dependence on other patterns
+2. Multiple commands
+3. Prototypes for copies
+
+CONTRAST  :
+
+    COMMAND                         STRATEGY
+
+1. Object per command       1. Object per strategy
+2. Class contains what      2. Class contains how
+3. Encapsulates action      3. Encapsulates algorithm
+
 
 */
