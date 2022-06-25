@@ -1,0 +1,49 @@
+/*
+
+CONCEPTS :
+
+1. Represent grammar
+2. Interpret a sentence
+3. map a domain
+4. AST (Abstract Syntax tree)
+
+EXAMPLES :
+
+    -> java.util.Pattern
+    -> java.text.Format
+
+DESIGN :
+
+AbstractExpressions
+Interpret
+TerminalExpression
+NonTerminalExpression
+Client
+Context
+
+PITFALLS :
+
+complexity
+class per rule
+use of other patterns
+add a new variant
+specific case
+
+
+CONTRAST
+
+
+    INTERPRETER                                                 VISITOR
+
+1. Access to properties.                               1. Needs Observer functionality.
+2. Functions as methods.                               2. Functionality found in one place.
+3. Add new functionalities changes every variant.      3. Adding new variant requires changing every visitor.
+
+Summary :
+
+good for :
+define a grammar
+define validation
+special case pattern
+
+*/
