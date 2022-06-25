@@ -1,0 +1,39 @@
+/*
+
+CONCEPTS :
+
+1. Loose coupling
+2. Well-defined,but complex
+3. Reusable components
+4. Hub / Router
+
+EXAMPLES :
+
+-> java.util.Timer
+-> java.lang.reflect.Method#invoke()
+
+DESIGN :
+
+1. Interface based
+2. Concrete class
+3. Minimizes inheritance
+4. Mediator knows about the colleagues
+5. Mediator,ConcreteMediator
+
+PITFALLS :
+
+Deity Objects
+Limits subclassing
+Over or with Command.
+
+
+
+CONTRAST :
+
+        MEDIATOR                                OBSERVER
+
+1. Defines Interaction.                     1.One to Many Broadcast.
+2. object Decoupling.                       2. Object Decoupling.
+3. More Specific.                           3.More generic.
+
+*/
