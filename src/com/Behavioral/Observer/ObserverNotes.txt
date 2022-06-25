@@ -1,0 +1,42 @@
+/*
+
+CONCEPTS
+
+1. One to Many
+2. Decoupled
+3. Event handling
+4. Publisher and Subscriber
+5. MVC pattern
+
+Examples :
+
+-> java.util.Observer
+-> java.util.EventListener
+-> javax.jms.Topic
+
+DESIGN :
+
+1. Subject
+2. Observer
+3. Observable
+4. Views are Observers
+
+PITFALLS :
+
+1. Unexpected updates
+2. large side consequences
+3. what changed?
+4. Debugging difficult
+
+CONTRAST :
+
+    OBSERVER                        MEDIATOR
+
+1. One to Many.                 1. One-to-one-to-many
+2. Decoupled.                   2. Decoupled
+3. BroadCast communication.     3. Complex communication
+
+
+
+
+*/
