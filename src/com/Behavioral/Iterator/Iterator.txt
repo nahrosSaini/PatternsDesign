@@ -1,0 +1,49 @@
+/*
+
+CONCEPTS
+
+Transverse a container.
+Doesn't expose underlying structure.
+Decouples algorithms.
+Sequential.
+
+Examples
+
+java.util.Iterator
+java.util.Enumeration
+
+DESIGN  :
+
+Interface based kind of factory.
+Independent but fails fast.
+Enumerations are fail-safe.
+Iterator,ConcreteIterator
+
+PITFALLS :
+
+Access to index is no possible
+Direction(goes only in one direction)
+Speed is a bit slower than index transversing.
+
+
+CONTRAST
+
+    ITERATOR                                         FOR LOOP
+
+1. Interface based.                            1. Traversal in client
+2. Algorithm is removed.                       2.Exposes an index
+3. No index.                                   3.Doesn't change the underlying object
+4. Concurrent modification.                    4.foreach syntax
+                                               5. Typical slower
+
+SUMMARY :
+
+1. Efficient way to traverse
+2. Hides algorithm
+3. Simplify client
+4. foreach
+
+
+
+
+*/
