@@ -1,0 +1,50 @@
+/*
+
+CONCEPTS :
+
+Restore Object to Previous state
+Externalize internal state
+undo/rollback
+Shields complex internals
+
+Examples  :
+
+java.util.date
+java.io.Serializable
+
+DESIGN :
+
+Class based
+Originator
+Caretaker
+Memento
+Magic Cookie
+
+
+PITFALLS :
+
+
+Can be expensive
+Delete/history
+Exposing information
+
+
+CONTRAST :
+
+         MEMENTO                        COMMAND
+
+1. State captured.                  1. Request Captured
+2. Independent state.               2. Independent Request
+3. Caretaker/history.               3. History side benefit
+
+
+
+SUMMARY :
+
+Capture States
+Can get Heavy
+Recreate State
+Command
+
+
+*/
