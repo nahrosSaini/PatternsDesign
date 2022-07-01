@@ -1,0 +1,37 @@
+/*
+
+CONCEPT :
+
+1. Eliminate conditional statements
+2. Behaviour encapsulated in classes
+3. Difficult to add new strategies
+4. Client aware of strategies
+5. Client choose strategy
+
+EXAMPLES :
+
+java.util.Comparator
+
+DESIGN :
+
+1. Abstract base class
+2. Concrete class per Strategy
+3. Removes if/else conditionals
+4. Strategies are independent
+
+PITFALLS :
+
+1. Client should be aware of the strategy
+2. Increased number of classes
+
+
+CONTRAST :
+
+    STATE                                      STRATEGY
+
+1. Interface Based                      1. Interface Based.
+2. One know the next state.             2. Algorithms are independent
+3. Class per State.                     3. Class per Algorithm
+
+
+*/
