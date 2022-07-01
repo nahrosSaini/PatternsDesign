@@ -1,0 +1,39 @@
+/*
+
+CONCEPT:
+
+Localize state behaviour
+State Object
+Separates what from where
+OCP
+
+EXAMPLES  :
+
+not examples in java
+1. JSF
+2. ITERATOR
+3. NONE!
+
+DESIGN :
+
+Abstract class/Interface
+Class based
+Context unaware
+Context ,state ,ConcreteState
+
+PITFALLS:
+
+You must know all states of your application
+you end up with more classes
+keep logic out of context
+State change is
+
+CONTRAST :
+
+    STATE                                      STRATEGY
+
+1. Interface Based                      1. Interface Based.
+2. One know the next state.             2. Algorithms are independent
+3. Class per State.                     3 . Class per Algorithm
+
+*/
