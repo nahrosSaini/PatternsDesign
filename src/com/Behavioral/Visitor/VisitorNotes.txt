@@ -1,0 +1,38 @@
+/*
+
+CONCEPTS :
+
+1. Separate Algorithm from Object
+2. Adding new features
+3. Maintain Open/Closed principle
+4. Visitor changes
+
+EXAMPLES :
+-> java.lang.model.element.class
+-> java.lang.model.ElementVisitor
+
+DESIGN :
+
+1. Interface based
+2. Visitor and Element
+3. Elements have visit method
+4. Visitor knows every element
+
+PITFALLS :
+
+1. You have to plan for adaptability
+2. Indirection somewhat confusing
+3. Adapter pattern
+
+CONTRAST  :
+
+    VISITOR
+
+1. Interface based
+2. Externalized changes
+3. Multiple visitors
+
+// This is very difficult or understand
+
+
+*/
