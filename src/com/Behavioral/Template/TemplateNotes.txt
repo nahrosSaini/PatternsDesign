@@ -1,0 +1,39 @@
+/*
+
+CONCEPT:
+
+1. Code reuse
+2. Common in libraries/framework
+3. Ioc
+4. Algorithms emphasis
+
+EXAMPLES :
+-> java.util.Collection#sort()
+-> java.util.AbstractList*indexOf()
+
+
+DESIGN:
+
+1. Abstract Base class
+2. Base calls child
+3. Hooks
+4. Operations
+
+PITFALLS :
+
+1. Restrict access
+2. Confusing hierarchy
+3. Difficult program flow
+
+CONTRAST :
+
+Template
+
+    TEMPLATE METHOD             STRATEGY
+
+1. Same Algorithm.          1. Algorithm per strategy
+2. Class based.             2. Interface based
+3. Compile time.            3.Runtime
+
+
+*/
