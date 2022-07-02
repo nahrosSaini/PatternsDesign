@@ -1,0 +1,35 @@
+CONCEPTS :
+
+1. Plug adaptor
+2. Convert interface to another interface
+3. Legacy
+4. Translates request
+5. Client, Adaptor, Adaptee
+
+EXAMPLES :
+- > Arrays -> Lists
+- > Streams
+
+DESIGN  :
+
+1. Client Centric
+2. Integrate new with Old
+3. Interface, but not required
+4. Adaptee can be the implementation
+
+
+PITFALLS :
+
+Not a lot
+Don't complicate
+Multiple Adaptor
+
+
+CONTRAST :
+
+
+    ADAPTER                                              BRIDGE
+1. Works after code is designed.                1. Designed Upfront.
+2. Legacy.                                      2. Abstraction and implementation vary.
+3. Retrofitted.                                 3.Built in advance
+4. Provides different Interface.                4. Both adapt multiple systems
